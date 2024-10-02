@@ -1,0 +1,60 @@
+.kanban-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+/* Each column in the Kanban board */
+.kanban-column {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 250px;
+}
+
+/* The list of tickets in each column */
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Styling for individual ticket cards */
+.ticket-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Priority badges */
+.priority-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Color definitions for priority badges */
+.priority-badge.red {
+    background-color: #e74c3c;
+}
+
+.priority-badge.orange {
+    background-color: #f39c12;
+}
+
+.priority-badge.yellow {
+    background-color: #f1c40f;
+}
+
+.priority-badge.green {
+    background-color: #2ecc71;
+}
+
+.priority-badge.gray {
+    background-color: #95a5a6;
+}
