@@ -2,38 +2,43 @@
     display: flex;
     gap: 20px;
     padding: 20px;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 /* Each column in the Kanban board */
 .kanban-column {
-    background-color: #f4f4f4;
+    background-color:#f4f4f4;
     padding: 20px;
     border-radius: 8px;
-    min-width: 250px;
+    min-width: 10%;
 }
 
 /* The list of tickets in each column */
 .ticket-list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 /* Styling for individual ticket cards */
 .ticket-card {
     background-color: white;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 5.5rem;
+    width:auto;
+    font-size: 0.7rem;
 }
+
+
 
 /* Priority badges */
 .priority-badge {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 0.7rem;
     color: white;
     margin-top: 10px;
 }
